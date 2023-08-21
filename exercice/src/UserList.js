@@ -35,6 +35,7 @@ const UserList = () => {
             </select>
 
             <ul className="user-list">
+                <h3>Liste des utilisateurs</h3>
                 {userData
                     .filter(user => selectedDepartment === 'all' || user.departments.includes(Number(selectedDepartment)))
                     .map(user => (

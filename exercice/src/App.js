@@ -5,7 +5,6 @@ import UserList from './UserList';
 function App() {
   return (
     <div className='background'>
-      <h1>Liste des utilisateurs</h1>
       <UserList/>
     </div>
   );
